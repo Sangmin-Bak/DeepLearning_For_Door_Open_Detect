@@ -15,7 +15,7 @@ git clone https://github.com/Sangmin-Bak/DeepLearning_For_Lift_Open_Detect
 cd ~/catkin_ws && catkin_make
 ```
 
-## InatALL Model
+## Install Model
 https://drive.google.com/file/d/1ZX20tCJG9SV3STvSC_Nqvaoak3alEdCg/view?usp=sharing
 ```
 unzip model.zip
