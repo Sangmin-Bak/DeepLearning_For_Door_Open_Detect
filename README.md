@@ -1,5 +1,5 @@
 # DeepLearning_For_Lift_Open_Detect
-The purpose of this project is to allow robots to enter and exit elevators by recognizing whether the elevator doors are open.
+The purpose of this project is to allow robots to enter and exit elevators by recognizing whether the lift doors are open.
 
 ## Requirements
 1. Ubuntu16.04
