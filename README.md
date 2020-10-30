@@ -15,11 +15,13 @@ git clone https://github.com/Sangmin-Bak/DeepLearning_For_Lift_Open_Detect
 cd ~/catkin_ws && catkin_make
 ```
 
-## Run
+## Run node with ROs
 ```
 roslaunch lift_detect lift_door_detect.launch
+```
 
-node without ROS
+## Run node without ROS
+```
 roscd lift_detect/node
 ./lift_detect_with_tensorflow.py
 ```
