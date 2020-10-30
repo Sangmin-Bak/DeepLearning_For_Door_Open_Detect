@@ -15,6 +15,14 @@ git clone https://github.com/Sangmin-Bak/DeepLearning_For_Lift_Open_Detect
 cd ~/catkin_ws && catkin_make
 ```
 
+## InatALL Model
+https://drive.google.com/file/d/1ZX20tCJG9SV3STvSC_Nqvaoak3alEdCg/view?usp=sharing
+```
+unzip model.zip
+mkdir ~/catkin_ws/src/DeepLearning_For_Lift_Open_Detect/lift_detect/models
+cp model.zip ~/catkin_ws/src/DeepLearning_For_Lift_Open_Detect/lift_detect/models
+```
+
 ## Run node with ROs
 ```
 roslaunch lift_detect lift_door_detect.launch
