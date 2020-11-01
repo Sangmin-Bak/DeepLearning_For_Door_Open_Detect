@@ -19,8 +19,8 @@ cd ~/catkin_ws && catkin_make
 https://drive.google.com/file/d/1ZX20tCJG9SV3STvSC_Nqvaoak3alEdCg/view?usp=sharing
 ```
 unzip model.zip
-mkdir ~/catkin_ws/src/DeepLearning_For_Lift_Door_Open_Detect/lift_detect/models
-cp model.zip ~/catkin_ws/src/DeepLearning_For_Door_Open_Detect/lift_detect/models
+mkdir ~/catkin_ws/src/DeepLearning_For_Door_Open_Detect/lift_detect/models
+cp model.pb ~/catkin_ws/src/DeepLearning_For_Door_Open_Detect/lift_detect/models
 ```
 
 ## Run node with ROs
