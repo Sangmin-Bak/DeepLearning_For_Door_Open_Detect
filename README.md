@@ -11,7 +11,7 @@ The purpose of this project is to allow robots to enter and exit elevators by re
 ## Installation
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/Sangmin-Bak/DeepLearning_For_Lift_Open_Detect
+git clone https://github.com/Sangmin-Bak/DeepLearning_For_Door_Open_Detect
 cd ~/catkin_ws && catkin_make
 ```
 
@@ -19,19 +19,19 @@ cd ~/catkin_ws && catkin_make
 https://drive.google.com/file/d/1ZX20tCJG9SV3STvSC_Nqvaoak3alEdCg/view?usp=sharing
 ```
 unzip model.zip
-mkdir ~/catkin_ws/src/DeepLearning_For_Lift_Open_Detect/lift_detect/models
-cp model.zip ~/catkin_ws/src/DeepLearning_For_Lift_Open_Detect/lift_detect/models
+mkdir ~/catkin_ws/src/DeepLearning_For_Lift_Door_Open_Detect/lift_detect/models
+cp model.zip ~/catkin_ws/src/DeepLearning_For_Door_Open_Detect/lift_detect/models
 ```
 
 ## Run node with ROs
 ```
-roslaunch lift_detect lift_door_detect.launch
+roslaunch door_detect door_detect.launch
 ```
 
 ## Run node without ROS
 ```
-roscd lift_detect/node
-./lift_detect_with_tensorflow.py
+roscd door_detect/node
+./door_detect_with_tensorflow.py
 ```
 
 ## Original Repository
