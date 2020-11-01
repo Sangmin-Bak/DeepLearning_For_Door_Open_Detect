@@ -61,16 +61,16 @@ def detect_lift(graph, x, y, WIDTH, HEIGHT, input_q, output_q):
             out = sess.run(y, feed_dict={x: batch})
             print "output shape: ", out.shape
             print "predicted class: ", out[0][:5].argmax()
-            classNumber = int(out[0][:3].argmax())
+            classNumber = int(out[0][:5].argmax())
 
             if classNumber == 1:
                 print 'It is an Open Lift'
             elif classNumber == 2:
                 print 'It is a Closed Lift'
-            # elif classNumber == 3:
-            #     print 'It is an Open Door'
-            # elif classNumber == 4:
-            #     print 'It is a Closed Door'
+            elif classNumber == 3:
+                print 'It is an Open Door'
+            elif classNumber == 4:
+                print 'It is a Closed Door'
         
 
 if __name__ == "__main__":
