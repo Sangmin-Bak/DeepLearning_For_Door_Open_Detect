@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <node pkg="lift_detect" type="lift_detect_with_ros_tensorflow.py" name="lift_detect" output="screen"/>
-</launch>
