@@ -48,7 +48,7 @@ def load_graph(graph_filename):
         )
     return graph
 
-def detect_lift(graph, x, y, WIDTH, HEIGHT, input_q, output_q):
+def detect_door(graph, x, y, WIDTH, HEIGHT, input_q, output_q):
 
     with tf.Session(graph=graph, config=config) as sess:
         while True:
