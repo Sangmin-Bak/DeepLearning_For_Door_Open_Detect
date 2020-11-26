@@ -20,7 +20,6 @@ output_q = Queue()
 
 def videoCallback(data):
     global rgb_images
-    global k
     try:
         #Convert the depth image using the default passthrough encoding
         color_image = bridge.imgmsg_to_cv2(data, "bgr8")
